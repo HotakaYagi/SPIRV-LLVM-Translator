@@ -2,6 +2,7 @@
 
 [![Out-of-tree build & tests](https://github.com/KhronosGroup/SPIRV-LLVM-Translator/actions/workflows/check-out-of-tree-build.yml/badge.svg?branch=main&event=schedule)](https://github.com/KhronosGroup/SPIRV-LLVM-Translator/actions?query=workflow%3A%22Out-of-tree+build+%26+tests%22+event%3Aschedule)
 [![In-tree build & tests](https://github.com/KhronosGroup/SPIRV-LLVM-Translator/actions/workflows/check-in-tree-build.yml/badge.svg?branch=main&event=schedule)](https://github.com/KhronosGroup/SPIRV-LLVM-Translator/actions?query=workflow%3A%22In-tree+build+%26+tests%22+event%3Aschedule)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHotakaYagi%2FSPIRV-LLVM-Translator.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHotakaYagi%2FSPIRV-LLVM-Translator?ref=badge_shield)
 
 This repository contains source code for the LLVM/SPIR-V Bi-Directional Translator, a library and tool for translation between LLVM IR and [SPIR-V](https://www.khronos.org/registry/spir-v/).
 This project currently only supports the OpenCL/compute "flavour" of SPIR-V: it consumes and produces SPIR-V modules that declare the `Kernel` capability.
@@ -256,3 +257,7 @@ LLVM/Clang release and there are no objections from the maintainer(s). There
 is no guarantee that older release branches are proactively kept up to date
 with main, but you can request specific commits on older release branches by
 creating a pull request or raising an issue on GitHub.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHotakaYagi%2FSPIRV-LLVM-Translator.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FHotakaYagi%2FSPIRV-LLVM-Translator?ref=badge_large)
